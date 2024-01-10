@@ -9,6 +9,9 @@ export const Wrapper = styled.div`
   justify-content: center;
   padding-left: 100px;
   gap: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
 `;
 Wrapper.Logo = styled.div`
   font-size: 40px;
