@@ -14,8 +14,8 @@ export const Wrapper = styled.div`
   left: 0;
 `;
 Wrapper.Logo = styled.div`
-  font-size: 40px;
-  font-weight: 600;
+  font-size: 35px;
+  font-weight: 700;
 `;
 Wrapper.Links = styled.ul`
   list-style: none;
@@ -26,9 +26,9 @@ Wrapper.Links = styled.ul`
   }
 `;
 Wrapper.Link = styled.li`
-  font-size: 18px;
-  font-weight: 400;
-  color: #767777;
+  color: #767676;
+  font-weight: 500;
+  cursor: pointer;
 `;
 Wrapper.FooterText = styled.div`
   font-size: 18px;

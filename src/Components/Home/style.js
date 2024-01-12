@@ -27,7 +27,7 @@ Wrapper.Info = styled.div`
 Wrapper.Title = styled.h3`
   font-size: 40px;
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
 `;
 Wrapper.Desc = styled.p`
   font-size: 18px;

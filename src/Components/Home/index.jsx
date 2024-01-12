@@ -2,10 +2,11 @@ import React from "react";
 import { Wrapper } from "./style";
 import { FaGithub, FaFacebookSquare, FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
+import { Container } from "../Generic/styles";
 
 const Home = () => {
   return (
-    <Wrapper>
+    <Container>
       <Wrapper.Content>
         <Wrapper.Image></Wrapper.Image>
         <Wrapper.Info>
@@ -22,7 +23,7 @@ const Home = () => {
           </Wrapper.Links>
         </Wrapper.Info>
       </Wrapper.Content>
-    </Wrapper>
+    </Container>
   );
 };
 
