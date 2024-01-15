@@ -7,6 +7,7 @@ Container.Content = styled.div`
   width: auto;
   margin-left: 350px;
   padding: 100px 150px;
+  background: #f9f8f9;
 `;
 const MenuButton = styled.button`
   display: inline-block;

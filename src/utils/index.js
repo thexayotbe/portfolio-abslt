@@ -10,3 +10,46 @@ export const info = [
   { title: "Interest", subtitle: "Playing Footbal" },
   { title: "Freelance", subtitle: "Available" },
 ];
+
+export const skills = {
+  programming: [
+    {
+      name: "HTML CSS",
+      percent: 95,
+    },
+    {
+      name: "Javascript",
+      percent: 80,
+    },
+    {
+      name: "Bootstrap, Sass",
+      percent: 100,
+    },
+    {
+      name: "React JS",
+      percent: 90,
+    },
+    {
+      name: "Redux",
+      percent: 100,
+    },
+    {
+      name: "Node.js",
+      percent: 30,
+    },
+  ],
+  languages: [
+    {
+      name: "Uzbek",
+      percent: 100,
+    },
+    {
+      name: "Russian",
+      percent: 90,
+    },
+    {
+      name: "English",
+      percent: 75,
+    },
+  ],
+};

@@ -1,7 +1,13 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div``;
-Wrapper.Content = styled.div``;
+Wrapper.Content = styled.div`
+  width: auto;
+  margin-left: 350px;
+  padding: 50px 150px;
+  background: #fff;
+  height: 600px;
+`;
 Wrapper.Img = styled.div`
   width: 100%;
   height: 500px;
@@ -62,4 +68,43 @@ Wrapper.Button = styled.button`
   width: 170px;
   height: 50px;
   margin: 40px 0;
+`;
+Wrapper.Skills = styled.div`
+  display: flex;
+  gap: 40px;
+`;
+Wrapper.SkillsItem = styled.div`
+  width: 50%;
+`;
+Wrapper.SkillsTitle = styled.h3`
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 40px;
+`;
+Wrapper.Skill = styled.div``;
+Wrapper.SkInfo = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+`;
+Wrapper.SkillName = styled.h3`
+  font-size: 15px;
+  font-weight: 400;
+  margin: 30px 0 10px 0;
+`;
+
+Wrapper.Progress = styled.div`
+  width: 90%;
+  height: 3px;
+  background-color: #e9e8e9;
+  position: relative;
+  &:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: ${({ percent }) => percent + "%"};
+    height: 3px;
+    background-color: #222;
+  }
 `;
