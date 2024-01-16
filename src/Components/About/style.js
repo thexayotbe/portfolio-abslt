@@ -108,3 +108,57 @@ Wrapper.Progress = styled.div`
     background-color: #222;
   }
 `;
+Wrapper.CareerInfo = styled.div`
+  height: 500px;
+  padding: 100px 0;
+  display: flex;
+  justify-content: space-between;
+`;
+Wrapper.CareerInfoItem = styled.div`
+  width: 48%;
+`;
+Wrapper.CareerTitle = styled.h3`
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 50px;
+`;
+Wrapper.CareerItem = styled.div`
+  display: flex;
+  gap: 80px;
+  height: 90px;
+  align-items: center;
+  border-left: 2px solid #ededed;
+  padding-left: 20px;
+`;
+Wrapper.Year = styled.h4`
+  padding: 10px 25px;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  font-size: 14px;
+  color: #767676;
+  font-weight: 400;
+  position: relative;
+  &::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ededed;
+    background-color: #fff;
+    position: absolute;
+    top: 6px;
+    left: -32px;
+  }
+`;
+Wrapper.TextItem = styled.div`
+  line-height: 1.8;
+`;
+Wrapper.LabelName = styled.h3`
+  font-size: 16px;
+  font-weight: 700;
+`;
+Wrapper.Degree = styled.p`
+  font-size: 14px;
+  color: #767676;
+  font-weight: 400;
+`;

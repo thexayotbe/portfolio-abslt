@@ -7,7 +7,7 @@ import {
   Text,
   Title,
 } from "../Generic/styles";
-import { info, skills } from "../../utils";
+import { career, info, skills } from "../../utils";
 import { Progress } from "antd";
 
 const About = () => {
@@ -80,6 +80,38 @@ const About = () => {
             })}
           </Wrapper.SkillsItem>
         </Wrapper.Skills>
+      </Wrapper.Content>
+      <Wrapper.Content>
+        <Wrapper.CareerInfo>
+          <Wrapper.CareerInfoItem>
+            <Wrapper.CareerTitle>Education</Wrapper.CareerTitle>
+            {career.education.map((value) => {
+              return (
+                <Wrapper.CareerItem>
+                  <Wrapper.Year>{value.year}</Wrapper.Year>
+                  <Wrapper.TextItem>
+                    <Wrapper.LabelName>{value.name}</Wrapper.LabelName>
+                    <Wrapper.Degree>{value.label}</Wrapper.Degree>
+                  </Wrapper.TextItem>
+                </Wrapper.CareerItem>
+              );
+            })}
+          </Wrapper.CareerInfoItem>
+          <Wrapper.CareerInfoItem>
+            <Wrapper.CareerTitle>Experience</Wrapper.CareerTitle>
+            {career.experience.map((value) => {
+              return (
+                <Wrapper.CareerItem>
+                  <Wrapper.Year>{value.year}</Wrapper.Year>
+                  <Wrapper.TextItem>
+                    <Wrapper.LabelName>{value.name}</Wrapper.LabelName>
+                    <Wrapper.Degree>{value.label}</Wrapper.Degree>
+                  </Wrapper.TextItem>
+                </Wrapper.CareerItem>
+              );
+            })}
+          </Wrapper.CareerInfoItem>
+        </Wrapper.CareerInfo>
       </Wrapper.Content>
     </Container>
   );
