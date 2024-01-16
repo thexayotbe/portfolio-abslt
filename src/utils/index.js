@@ -53,3 +53,44 @@ export const skills = {
     },
   ],
 };
+
+const career = {
+  education: [
+    {
+      name: "IT School Uchkurgan",
+      label: "Front End",
+      year: "03.2022 - 10.2022",
+    },
+
+    {
+      name: "IT Academy",
+      label: "React JS",
+      year: "10.2022 - 03.2023",
+    },
+
+    {
+      name: "ITA",
+      label: "Back End - Ndde.JS",
+      year: "12.2023 - current",
+    },
+  ],
+  experience: [
+    {
+      name: "IT School",
+      label: "Front End Mentor",
+      year: "10.2022 - 01.2024",
+    },
+
+    {
+      name: "AEMA - Intern",
+      label: "React JS Developer",
+      year: "01.2023 - 05.2023",
+    },
+
+    {
+      name: "Nixol",
+      label: "Front End",
+      year: "05.2023 - 11.2023",
+    },
+  ],
+};
