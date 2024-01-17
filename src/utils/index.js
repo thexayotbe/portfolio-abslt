@@ -94,3 +94,20 @@ export const career = {
     },
   ],
 };
+
+export const know_intr = {
+  knowledge: [
+    ["HTML, CSS, JavaScript"],
+    ["React, Next"],
+    ["Sass, Bootstrap Styled Components"],
+    ["Node.JS Express Handlebars"],
+    ["MySQL RestApi "],
+  ],
+  interests: [
+    ["Make UI/UX Design"],
+    ["Create Web Applications"],
+    ["Playing Football"],
+    ["Learn New Technologies"],
+    ["Site Optimization"],
+  ],
+};

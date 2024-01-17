@@ -7,8 +7,8 @@ import {
   Text,
   Title,
 } from "../Generic/styles";
-import { career, info, skills } from "../../utils";
-import { Progress } from "antd";
+import { career, info, know_intr, skills } from "../../utils";
+import { FaFirstOrder } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -81,6 +81,44 @@ const About = () => {
           </Wrapper.SkillsItem>
         </Wrapper.Skills>
       </Wrapper.Content>
+      <Container.Content>
+        <Wrapper.Interests>
+          <Wrapper.InterestsItem>
+            <Wrapper.CareerTitle>Knowledge</Wrapper.CareerTitle>
+            {know_intr.knowledge.map((value) => {
+              return (
+                <Wrapper.InteresText>
+                  <FaFirstOrder
+                    style={{
+                      color: "black",
+                      fontSize: "10px",
+                      marginRight: "10px",
+                    }}
+                  />
+                  {value}
+                </Wrapper.InteresText>
+              );
+            })}
+          </Wrapper.InterestsItem>
+          <Wrapper.InterestsItem>
+            <Wrapper.CareerTitle>Interests</Wrapper.CareerTitle>
+            {know_intr.interests.map((value) => {
+              return (
+                <Wrapper.InteresText>
+                  <FaFirstOrder
+                    style={{
+                      color: "black",
+                      fontSize: "10px",
+                      marginRight: "10px",
+                    }}
+                  />
+                  {value}
+                </Wrapper.InteresText>
+              );
+            })}
+          </Wrapper.InterestsItem>
+        </Wrapper.Interests>
+      </Container.Content>
       <Wrapper.Content>
         <Wrapper.CareerInfo>
           <Wrapper.CareerInfoItem>

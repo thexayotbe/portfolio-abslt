@@ -1,6 +1,10 @@
 import styled from "styled-components";
 
-export const Wrapper = styled.div``;
+export const Wrapper = styled.div`
+  .icon {
+    color: red;
+  }
+`;
 Wrapper.Content = styled.div`
   width: auto;
   margin-left: 350px;
@@ -161,4 +165,17 @@ Wrapper.Degree = styled.p`
   font-size: 14px;
   color: #767676;
   font-weight: 400;
+`;
+Wrapper.Interests = styled.div`
+  display: flex;
+  height: 200px;
+  gap: 100px;
+`;
+Wrapper.InterestsItem = styled.div`
+  width: 50%;
+`;
+Wrapper.InteresText = styled.p`
+  font-size: 15px;
+  color: #757575;
+  line-height: 1.9;
 `;
