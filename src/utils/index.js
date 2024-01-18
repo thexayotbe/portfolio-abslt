@@ -111,3 +111,36 @@ export const know_intr = {
     ["Site Optimization"],
   ],
 };
+
+export const services = [
+  {
+    id: "01",
+    title: "Web Design",
+    desc: "Web development is the most famous job in the world and it is very interesting...",
+  },
+  {
+    id: "02",
+    title: "Conntent Writing",
+    desc: "Web development is the most famous job in the world and it is very interesting...",
+  },
+  {
+    id: "03",
+    title: "Brand Identify",
+    desc: "Web development is the most famous job in the world and it is very interesting...",
+  },
+  {
+    id: "04",
+    title: "Live Chat",
+    desc: "Web development is the most famous job in the world and it is very interesting...",
+  },
+  {
+    id: "05",
+    title: "UI/UX design",
+    desc: "Web development is the most famous job in the world and it is very interesting...",
+  },
+  {
+    id: "06",
+    title: "Mobile App",
+    desc: "Web development is the most famous job in the world and it is very interesting...",
+  },
+];

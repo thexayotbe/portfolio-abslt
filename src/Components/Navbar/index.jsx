@@ -13,7 +13,9 @@ const Navbar = () => {
             Home
           </Wrapper.Link>
           <Wrapper.Link onClick={() => navigate("/about")}>About</Wrapper.Link>
-          <Wrapper.Link>Service</Wrapper.Link>
+          <Wrapper.Link onClick={() => navigate("/services")}>
+            Service
+          </Wrapper.Link>
           <Wrapper.Link>Portfolio</Wrapper.Link>
           <Wrapper.Link>News</Wrapper.Link>
           <Wrapper.Link>Contact</Wrapper.Link>
