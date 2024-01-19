@@ -55,7 +55,6 @@ const bg = keyframes`
 //   background-color: #222;
 //   animation: ${({ hover }) => (hover ? bg : "")};
 //   animation-duration: 0.3s;
-
 //   &::before {
 //     content: "Read More";
 //     width: 100px;
@@ -73,6 +72,7 @@ Wrapper.Button = styled.button`
   background-color: transparent;
   font-size: 14px;
   position: relative;
+  cursor: pointer;
   &::after {
     content: "";
     width: 20%;
