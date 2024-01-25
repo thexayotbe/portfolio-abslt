@@ -144,3 +144,17 @@ export const services = [
     desc: "Web development is the most famous job in the world and it is very interesting...",
   },
 ];
+export const funFacts = [
+  {
+    count: "10+",
+    title: "Projets Completed",
+  },
+  {
+    count: "10+",
+    title: "Happy Clients",
+  },
+  {
+    count: "9K+",
+    title: "Lines of Code",
+  },
+];

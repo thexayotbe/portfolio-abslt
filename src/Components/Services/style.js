@@ -32,39 +32,6 @@ Wrapper.ItemDesc = styled.p`
   color: #777677;
   line-height: 1.9;
 `;
-const fadeIn = keyframes`
- from { opacity: 0; transform: translateX(-30px); }
- to { opacity: 1; transform: translateX(10px); }
-`;
-const bg = keyframes`
-    from {
-        width: 00%;
-    }
-    to{
-        width: 100%
-    }
-`;
-// Wrapper.Button = styled.button`
-//   margin-top: 20px;
-//   border: none;
-//   background-color: transparent;
-//   font-size: 14px;
-//   position: relative;
-//   width: 30px;
-//   height: 1px;
-//   background-color: #222;
-//   animation: ${({ hover }) => (hover ? bg : "")};
-//   animation-duration: 0.3s;
-//   &::before {
-//     content: "Read More";
-//     width: 100px;
-//     position: absolute;
-//     top: -8px;
-//     opacity: ${({ hover }) => (hover ? 1 : 0)};
-//     animation: ${({ hover }) => (hover ? fadeIn : "")};
-//     animation-duration: 0.3s;
-//   }
-// `;
 
 Wrapper.Button = styled.button`
   margin-top: 20px;
@@ -83,3 +50,20 @@ Wrapper.Button = styled.button`
     background-color: #222;
   }
 `;
+
+Wrapper.Facts = styled.div`
+  width: 100%;
+  height: 400px;
+  padding: 100px 0;
+`;
+Wrapper.FunTitle = styled.div`
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 50px;
+`;
+Wrapper.FactItems = styled.div`
+  display: flex;
+`;
+Wrapper.FactItem = styled.div``;
+Wrapper.FactTitle = styled.div``;
+Wrapper.FactText = styled.div``;

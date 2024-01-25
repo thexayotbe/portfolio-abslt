@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, MenuButton, MenuTitle } from "../Generic/styles";
 import { Wrapper } from "./style";
-import { services } from "../../utils";
+import { funFacts, services } from "../../utils";
 
 const Services = () => {
   const [hover, setHover] = useState(false);
@@ -24,6 +24,19 @@ const Services = () => {
             );
           })}
         </Wrapper.Services>
+        <Wrapper.Facts>
+          <Wrapper.FunTitle>Fun Facts</Wrapper.FunTitle>
+          <Wrapper.FactItems>
+            {funFacts.map((value) => {
+              return (
+                <Wrapper.FactItem>
+                  <Wrapper.FactTitle>{value.count}</Wrapper.FactTitle>
+                  <Wrapper.FactText>{value.title}</Wrapper.FactText>
+                </Wrapper.FactItem>
+              );
+            })}
+          </Wrapper.FactItems>
+        </Wrapper.Facts>
       </Container.Content>
     </Container>
   );
