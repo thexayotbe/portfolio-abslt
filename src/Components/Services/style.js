@@ -63,7 +63,23 @@ Wrapper.FunTitle = styled.div`
 `;
 Wrapper.FactItems = styled.div`
   display: flex;
+  justify-content: space-between;
 `;
-Wrapper.FactItem = styled.div``;
-Wrapper.FactTitle = styled.div``;
-Wrapper.FactText = styled.div``;
+Wrapper.FactItem = styled.div`
+  width: 270px;
+  height: 140px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
+Wrapper.FactTitle = styled.div`
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 10px;
+`;
+Wrapper.FactText = styled.div`
+  font-size: 15px;
+  color: #767676;
+`;
