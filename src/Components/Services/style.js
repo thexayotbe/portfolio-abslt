@@ -82,4 +82,5 @@ Wrapper.FactTitle = styled.div`
 Wrapper.FactText = styled.div`
   font-size: 15px;
   color: #767676;
+  font-weight: normal;
 `;
